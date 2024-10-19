@@ -14,7 +14,7 @@ int main(void)
 #endif
 }
 ```
-[]()
+
 para acabar o bloco de código caso uma macro exista utilizamos ==#endif===, podemos também caso não exista aquela macro defina ter uma tratativa para continuar.
 
 caso queiramos "desdefinir" uma macro podemos utilizar o ==#undef== para retirar sua definição.
