@@ -1,8 +1,9 @@
 ### Static
-a keyword `static` pode ter várias funções dependendo do contexto que a mesma é aplicada
+the keyword `stactic` can has multiple functions depends of their context and application.
 
-**Variavéis globais**
-	Quando temos uma variavel de escopo como uma var dentro de uma função e queremos manter seu valor entre diversas chamadas podemos utilizar static. é como se fosse declara fora da variável.
+
+**Global Variables**
+	When we had a scope `var` as example a var inside a function and we want to preserve their values in multiple calls of the same function we can use `static` to preserve their value.
 ```c
 
 void contador(){
@@ -15,10 +16,10 @@ contador(); //1
 contador(); //2
 ```
 
-Chamando a função diversas vezes e tendo o acréscimo no resultado.
+the `var` behavior is the same as we define it out of function scope. 
 
-**Restringindo definição para o escopo**
-	quado temos uma variável global e queremos restringir ela somente a aquela `tranlastion unit` utilizamos static. e a variavel vai ficar restringir somente aquele arquivo impossibilando que mesmo com #include ela seja acessada
+**Narrowing the definition to the scope**
+	when we had a `global variable` and we want restrict it only in that file we can use `static`. in this case the variable can only be accessed in `definition file` begin unable to be accessed in another files even with #include.
 
 ```c
 #include <stdio.h>

@@ -1,0 +1,46 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiImage",
+      "⚙",
+      "FiBookOpen",
+      "LiCode2",
+      "LiPcCase"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false
+  },
+  "05 - Memory": "LiBrain",
+  "04 - Data structure": "LiServer",
+  "06 - Pointers": "✴",
+  "03 - CPU": "LiCpu",
+  "02 - Compiler": "LiPcCase",
+  "01 - Code": "LiCode2",
+  "07 - Libft": "FiBookOpen",
+  "02 - Compiler/images": "LiImage",
+  "04 - Data structure/images": "LiImage",
+  "05 - Memory/images": "LiImage"
+}

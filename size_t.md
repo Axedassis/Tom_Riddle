@@ -1,1 +1,0 @@
-`size_t` is an unsigned data type in C/C++ used to represent the size of objects in memory; it is typically retuned by functions like sizeof() and is used in contexts where the size of an object or array is needed, such as in memory allocation or indexing. 

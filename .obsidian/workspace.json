@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "f55612bafaf68c77",
+    "type": "split",
+    "children": [
+      {
+        "id": "b983d112180bddc3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "415fc1669c508e70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05 - Memory/Stack and Heap/Stack & Heap.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Stack & Heap"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f6b9844e86bafb79",
+    "type": "split",
+    "children": [
+      {
+        "id": "21988a059f13688f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6af17edf1d7e0557",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f2a012222cee287a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b4a09162a13d0a62",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 249.5086555480957
+  },
+  "right": {
+    "id": "8ea3e67dc26fc4db",
+    "type": "split",
+    "children": [
+      {
+        "id": "d65e3f8c65037832",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e72abb51adca25a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "03 - CPU/CPU,Core & Threads.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for CPU,Core & Threads"
+            }
+          },
+          {
+            "id": "0df4b515f60e9fb4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "03 - CPU/CPU,Core & Threads.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CPU,Core & Threads"
+            }
+          },
+          {
+            "id": "96011c1eec47e8ca",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9cab79944951d0fa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "03 - CPU/CPU,Core & Threads.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of CPU,Core & Threads"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "415fc1669c508e70",
+  "lastOpenFiles": [
+    "05 - Memory/Memory leak/fsanitize.md",
+    "01 - Code/System Call, Create, Open, Close, Read & Write.md",
+    "01 - Code/Null Pointer.md",
+    "02 - Compiler/MakeFiles.md",
+    "02 - Compiler/Compiling Processes.md",
+    "01 - Code/IfDef, endIF, else in C.md",
+    "01 - Code/Declaration Specifiers.md",
+    "01 - Code/C Structure Projects.md",
+    "Vscode.md",
+    "07 - Libft/ASCII tables difference.md",
+    "07 - Libft/Pasted image 20241017012905.png",
+    "TO SEE.md",
+    "size_t.md",
+    "extensions.json",
+    "08 - Configurations",
+    "08 - Configurations",
+    "08.config",
+    "08 - Configurations",
+    "04 - Data structure/02 - Stack/Stack.md",
+    "inglês.md",
+    "03 - CPU/CPU,Core & Threads.md",
+    "06 - Pointers/pointer of pointer/Pointer of pointer in a linked list.md",
+    "02 - Compiler/Book - compiling processes.md",
+    "07 - Libft/Pilot.md"
+  ]
+}

@@ -5,28 +5,31 @@ Quando iniciamos um programa o mesmo tem processos que o computador aloca um esp
 ![[Pasted image 20240921224155.png]]
 
 
-**Stack** (FILO)
-é um espaço em memoria que comporta as funções do programa. cada segmentação nesse pilha é demonimada  ==_Stack Frame_== . toda nova função cria uma nova Stack Frame nessa stack. Toda Stack Frame também tem a capacidade de comportar variáveis. e quando a Stack Frame é finalizada, como por exemplo um função terminou, todo a Stack Frame é destruida.
+Here is the translation of the text into English:
+
+---
+
+**Stack** (FILO)  
+The stack is a memory space that holds the program's functions. Each segmentation in this stack is called a **Stack Frame**. Every new function creates a new Stack Frame in this stack. Each Stack Frame can also hold variables, and when the Stack Frame ends—such as when a function finishes—the entire Stack Frame is destroyed.
 
 #### Stack parts
 
-- Stack Pointer
-	indica o endereço do espaço de memória que está livre, ficando localizada no top da última stack frame criada.
+- **Stack Pointer**  
+    Indicates the address of the free memory space, which is located at the top of the last Stack Frame created.
 
-É interessante saber que a operação de adicionar uma Stack Frame a uma Stack é extremamente `rápida` e `eficiente` pois a única coisa que o processador faz é mover o ==Stack pointer== para um posição menor (pois a stack frame crescem inveramente).
+It's interesting to know that adding a Stack Frame to a Stack is extremely `fast` and `efficient` because all the processor does is move the **Stack Pointer** to a smaller position (since the stack frames grow inversely).
 
-- **Heap**
-	De forma resumida é um espaço maior em memoria que vai comportar tudo aquilo que ocorre durante o código, o que é gerado e carregado. e para utilizarmos essa parte é frequentamente usado ==malooc e freee==.
-
-
-- **Unitialize Data**
-	Basicamente são variaiveis declaradas sem nenhum valor que são armazenadas nesse endereço de memoria. 
-
-- **Data**
-	Basicamente são variáveis e string constantes que já tem seu valor inicializado no começo do processo
-
-- **Text Code**
-	É onde literalmente nosso código digitado vai ser carregado, normalmente a forma dele transpilada em Assembly
+- **Heap**  
+    In short, the heap is a larger memory space that holds everything that occurs during the code's execution—what is generated and loaded. To use this part of memory, `malloc` and `free` are frequently used.
+    
+- **Uninitialized Data**  
+    These are basically variables declared without any value, stored in this memory address.
+    
+- **Data**  
+    These are variables and constant strings that already have their values initialized at the beginning of the process.
+    
+- **Text Code**  
+    This is where our written code is literally loaded, usually in its form transpiled into Assembly.
 
 
 ---

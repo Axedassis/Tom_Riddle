@@ -100,7 +100,7 @@ ft_strjoin -> junta a str1 com str2
 ft_substr -> a partir da string str1 na posição start copia len caracteres e retorna um ponteiro para nova string
 
 
-****SEARCH FUNCTINS****
+**SEARCH FUNCTIONS**
 ft_strchr -> search for the first occurrence of a char in a string and return the pointer for it
 ft_strrchr -> search for the ==last== occurrence of a char in a string and return the pointer for it
 ft_strncmp -> compare n string from str1 and str2
